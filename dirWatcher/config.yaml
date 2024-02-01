@@ -1,0 +1,14 @@
+Directory: "D:/folder"
+TimeInterval: 5m
+MagicString: "There you are!!"
+APIPort: 8080
+
+database:
+  type: "postgres"
+  host: "0.0.0.0"
+  port: 5432
+  user: "ssactuarial"
+  password: "ssactuarial"
+  name: "newtest"
+  logmode: true
+
