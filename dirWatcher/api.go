@@ -24,7 +24,7 @@ func NewAPI(config *Config, db *gorm.DB, watcher *Watcher) *API {
 
 func (api *API) RegisterRoutes(router *gin.Engine) {
 	router.GET("/task-run", api.getTaskRun)
-	router.POST("/configure", api.configure)
+	router.POST("/config", api.configure)
 	router.POST("/start", api.start)
 	router.POST("/stop", api.stop)
 }
